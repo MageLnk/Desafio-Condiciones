@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+img {
+  height: 40vh;
+  width: 100%;
+}
+input {
+  margin-top: 1rem;
+  width: 80%;
+}
+
+button {
+  width: 7%;
+}
