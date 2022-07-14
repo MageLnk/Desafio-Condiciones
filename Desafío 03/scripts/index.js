@@ -33,3 +33,5 @@ const checkDigits = () => {
       respond(false);
   }
 };
+
+/* Creo que se marea un poco los tiempos con el setInterval, a veces, creo */
