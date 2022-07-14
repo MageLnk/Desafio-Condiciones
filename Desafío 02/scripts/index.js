@@ -20,7 +20,6 @@ const numberValidation = (firstValue, secondValue, thirdValue) => {
   let secondCheck = +secondValue;
   let thirdCheck = +thirdValue;
   if (!firstCheck || !secondCheck || !thirdCheck) {
-    console.log("Dentro del if");
     document.querySelector("#stickerApproval").innerHTML =
       "Por favor, ingrese solo números";
     return;
@@ -38,7 +37,6 @@ const handleStickerCheck = () => {
   thirdStickerNumberGroup = document.querySelector(
     "#thirdQuantityStickerInput"
   ).value;
-  console.log(firstStickerNumberGroup);
 
   numberValidation(
     firstStickerNumberGroup,

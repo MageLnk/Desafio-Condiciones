@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.options {
+  margin: 0.3rem;
+}
+
+.respond {
+  padding: 1rem;
+}
